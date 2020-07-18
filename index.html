@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/headers.css" rel="stylesheet" />
+    <link href="./css/card.css" rel="stylesheet" />
+    <link href="./css/dropdown.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="header">Event Listing</div>
+      <div class="filters">
+        <div class="filters-header">City:</div>
+        <div class="custom-select">
+          <select id="custom-select-city"> </select>
+        </div>
+        <div class="filters-header" id="month">Month:</div>
+        <div class="custom-select">
+          <select>
+            <option value="0">January</option>
+            <option value="1">February</option>
+            <option value="2">March</option>
+            <option value="3">April</option>
+            <option value="4">May</option>
+            <option value="5">June</option>
+            <option value="6">July</option>
+            <option value="7">August</option>
+            <option value="8">September</option>
+            <option value="9">October</option>
+            <option value="10">November</option>
+            <option value="11">December</option>
+          </select>
+        </div>
+      </div>
+      <div class="cards"></div>
+    </main>
+    <script src="./libs/jquery-3.5.1.min.js"></script>
+    <script src="./js/cards-loader.js"></script>
+    <script src="./js/city-loader.js"></script>
+    <script src="./js/dropdown.js"></script>
+    <script src="./js/data-loader.js"></script>
+  </body>
+</html>
