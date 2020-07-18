@@ -1,5 +1,5 @@
 <div align="center"><h1>Тестовое задание №4</h1></div>
-<div align="center"><h3>Загрузка интересных событий</h3></div>
+<div align="center"><a href="https://al-remennikov.github.io/Xsolla-SS-test-4/">GitHub Pages</a></div>
   
 * Постановка задачи: https://github.com/xsolla/xsolla-frontend-school-2020
 * Макет: https://www.figma.com/file/Fh7IP7XGqOLcmaHiJq64Nw/Xsolla-Summer-School-2020-Frontend?node-id=0%3A1
